@@ -12,7 +12,7 @@
     </div>
     <div class="footer-copyright">
         <p>
-            Hecho con el ♥ por Kenyi Hancco
+            Hecho con el ♥ por <a href="http://kenyihq.github.io/portfolio-backup/">Kenyi Hancco</a>
         </p>
         <p>
             © Copyright 2022 - Todos los derechos reservados.

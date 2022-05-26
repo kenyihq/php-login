@@ -12,6 +12,10 @@
     display: none;
 }
 
+.footer a {
+    color: var(--white);
+}
+
 @media screen and (min-width: 768px){
     .footer-logo {
         display: block;
