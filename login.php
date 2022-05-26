@@ -13,7 +13,7 @@
         <input type="submit" value="Send">
     </form>
 </div>
-
+    
 <?php
     include("partials/footer.php");
 ?>
