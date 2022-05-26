@@ -1,10 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
 input[type="email"], input[type="password"] {
     outline: none;
     padding: 20px;
@@ -17,8 +10,8 @@ input[type="email"], input[type="password"] {
 
 input[type="submit"] {
     padding: 10px;
-    color: #fff;
-    background: #0098cb;
+    color: var(--white);
+    background: var(--linkedin);
     width: 320px;
     margin: 20px auto;
     margin-top: 0;
@@ -28,18 +21,5 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background: #00b8cb;
-}
-
-header {
-    border-bottom: 2px solid #eee;
-    padding: 20px 0;
-    margin-bottom: 10px;
-    width: 100%;
-    text-align: center;    
-}
-
-header a {
-    text-decoration: none;
-    color: black;
+    background: var(--purple);
 }

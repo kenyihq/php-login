@@ -1,0 +1,12 @@
+header {
+    border-bottom: 2px solid #eee;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;    
+}
+
+header a {
+    text-decoration: none;
+    font: var(--headline5);
+}
