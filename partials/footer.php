@@ -1,6 +1,8 @@
 <footer class="footer">
     <div class="footer-logo">
-        <img src="./img/logo.png" alt="Logo" width="155">
+        <a href="http://kenyihq.github.io/portfolio-backup/">
+            <img src="./img/logo.png" alt="Logo" width="155">
+        </a>
     </div>
     <div class="social">
         <a class="button-icon" href="http://github.com/kenyihq" target="_blank"><img src="./icons/icon-github.svg" alt="github-icon"></a>
