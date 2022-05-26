@@ -1,8 +1,10 @@
 <?php
     $page_title = "Login";
     #$h1_title = "Login";
-    include("header.php");
+    include("partials/header.php");
 ?>
+<h1>Login</h1>
+<span>or <a href="signup.php">SignUp</a></span>
 
 <form action="login.php" method="POST">
     <input type="email" name="email" placeholder="Enter your email">

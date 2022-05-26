@@ -1,6 +1,6 @@
 <?php
     $page_title = "Is this index";
-    include("header.php");
+    include("partials/header.php");
 ?>
 
 <h1>Please Login or SingUp</h1>
@@ -8,5 +8,5 @@
 <a href="signup.php">SignUp</a>
 
 <?php
-    include("footer.php");
+    include("partials/footer.php");
 ?>
