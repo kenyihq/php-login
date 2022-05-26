@@ -3,9 +3,9 @@
     include("header.php");
 ?>
 
-<div class="container">
-    <h2>Soy un div</h2>
-</div>
+<h1>Please Login or SingUp</h1>
+<a href="login.php">LogIn</a>
+<a href="signup.php">SignUp</a>
 
 <?php
     include("footer.php");
