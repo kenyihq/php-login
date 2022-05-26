@@ -25,12 +25,12 @@
     include("partials/header.php");
 ?>
 
+<div class="container">
+
 <?php if(!empty($message)): ?>
-    <p><?php $message ?></p>
+    <p><?= $message ?></p>
 <?php endif; ?>
 
-
-<div class="container">
     <h1>SingUp</h1>
     <span>or <a href="login.php">Login</a></span>
     
