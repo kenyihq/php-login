@@ -1,4 +1,11 @@
 <?php
+
+    require "database.php";
+
+?>
+
+
+<?php
     $page_title = "SignUp";
     #$h1_title = "Login";
     include("partials/header.php");
