@@ -30,8 +30,6 @@
             }
         }
 
-    } else {
-        $message = "Please enter your credentials";
     }
 ?>
 
@@ -40,17 +38,17 @@
     #$h1_title = "Login";
     include("partials/header.php");
 ?>
-<div class="container">
-    <?php if(!empty($message)): ?>
-        <p><?= $message ?></p>
-    <?php endif; ?>
+<div class="container">    
 
     <h1>Login</h1>
     <span>or <a href="signup.php">SignUp</a></span>
     
     <form action="login.php" method="POST">
-        <input type="email" name="email" placeholder="Enter your email">
-        <input type="password" name="password" placeholder="Enter your password">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <input type="password" name="password" placeholder="Enter your password" required>
+        <?php if(!empty($message)): ?>
+            <p class="alert"><?= $message ?></p>
+        <?php endif; ?>
         <input type="submit" value="Send">
     </form>
 </div>

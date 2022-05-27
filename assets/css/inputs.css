@@ -26,3 +26,15 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background: var(--purple);
 }
+
+.container .alert {
+    font: var(--body1);
+    background: var(--red);
+    color: var(--white);
+    width: 320px;
+    padding: 10px;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+}
