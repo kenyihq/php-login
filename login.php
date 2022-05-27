@@ -5,7 +5,10 @@
         header("Location: index.php");
     }
 
-    require "database.php";
+    // local
+    // require "database.php";
+    // cloud
+    require "database_cloud.php";
 
     if (!empty($_POST['email']) && !empty($_POST['password'])){
         

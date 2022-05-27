@@ -1,6 +1,9 @@
 <?php
     session_start();
-    require "database.php";
+    // local
+    // require "database.php";
+    // cloud
+    require "database_cloud.php";
 
     if (isset($_SESSION['user_id'])) {
         $sql = "SELECT id, email, password FROM user WHERE id = :id";

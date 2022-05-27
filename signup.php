@@ -1,5 +1,8 @@
 <?php
-    require "database.php";
+    // local
+    // require "database.php";
+    // cloud
+    require "database_cloud.php";
 
     $message = '';
 
